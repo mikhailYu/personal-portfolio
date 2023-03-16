@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mikhailYu/personal-portfolio/static/css/main.2d25a1a8.css",
-    "main.js": "/mikhailYu/personal-portfolio/static/js/main.359b1733.js",
+    "main.js": "/mikhailYu/personal-portfolio/static/js/main.b971b354.js",
     "static/media/weatherApp.png": "/mikhailYu/personal-portfolio/static/media/weatherApp.483cbdc3694684de9d7f.png",
     "static/media/eastCafe.png": "/mikhailYu/personal-portfolio/static/media/eastCafe.24e9f207cdee97231d3e.png",
     "static/media/library.png": "/mikhailYu/personal-portfolio/static/media/library.f0198d4a85a6814815c8.png",
@@ -15,10 +15,10 @@
     "static/media/battleship.png": "/mikhailYu/personal-portfolio/static/media/battleship.0ab58e100bc8fad8f254.png",
     "index.html": "/mikhailYu/personal-portfolio/index.html",
     "main.2d25a1a8.css.map": "/mikhailYu/personal-portfolio/static/css/main.2d25a1a8.css.map",
-    "main.359b1733.js.map": "/mikhailYu/personal-portfolio/static/js/main.359b1733.js.map"
+    "main.b971b354.js.map": "/mikhailYu/personal-portfolio/static/js/main.b971b354.js.map"
   },
   "entrypoints": [
     "static/css/main.2d25a1a8.css",
-    "static/js/main.359b1733.js"
+    "static/js/main.b971b354.js"
   ]
 }
