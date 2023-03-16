@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.d13652ef.css",
-    "main.js": "/personal-portfolio/static/js/main.fa4a70c1.js",
+    "main.css": "/personal-portfolio/static/css/main.44d46a36.css",
+    "main.js": "/personal-portfolio/static/js/main.07e5a503.js",
     "static/media/weatherApp.png": "/personal-portfolio/static/media/weatherApp.483cbdc3694684de9d7f.png",
     "static/media/eastCafe.png": "/personal-portfolio/static/media/eastCafe.24e9f207cdee97231d3e.png",
     "static/media/library.png": "/personal-portfolio/static/media/library.f0198d4a85a6814815c8.png",
@@ -13,12 +13,13 @@
     "static/media/dunzo.png": "/personal-portfolio/static/media/dunzo.8e01f24f928640a9a6b3.png",
     "static/media/avenir_roman_12.woff": "/personal-portfolio/static/media/avenir_roman_12.a04564f695b5a542102a.woff",
     "static/media/battleship.png": "/personal-portfolio/static/media/battleship.0ab58e100bc8fad8f254.png",
+    "static/media/bgRotated.png": "/personal-portfolio/static/media/bgRotated.11cf1aa1e94b85dd68c4.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.d13652ef.css.map": "/personal-portfolio/static/css/main.d13652ef.css.map",
-    "main.fa4a70c1.js.map": "/personal-portfolio/static/js/main.fa4a70c1.js.map"
+    "main.44d46a36.css.map": "/personal-portfolio/static/css/main.44d46a36.css.map",
+    "main.07e5a503.js.map": "/personal-portfolio/static/js/main.07e5a503.js.map"
   },
   "entrypoints": [
-    "static/css/main.d13652ef.css",
-    "static/js/main.fa4a70c1.js"
+    "static/css/main.44d46a36.css",
+    "static/js/main.07e5a503.js"
   ]
 }
