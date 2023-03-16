@@ -3,9 +3,6 @@ import "./App.css";
 function App() {
   return (
     <main>
-      <div className="bgBox"></div>
-      <div className="bgFill"></div>
-
       <header>
         <div className="aboutMeCont">
           <div className="aboutMeText">
