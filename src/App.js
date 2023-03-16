@@ -28,7 +28,7 @@ function App() {
               websites.
             </p>
           </div>
-          <div className="aboutMeImage"></div>
+          <div alt="Illustration of creator" className="aboutMeImage"></div>
         </div>
       </header>
 
@@ -38,6 +38,7 @@ function App() {
           <div className="projectCont">
             <div className="projectPicWrapper">
               <img
+                alt="Screenshot of HoneyGram"
                 className="projectPic"
                 src={require("../src/images/screenshots/honeygram.png")}
               ></img>
