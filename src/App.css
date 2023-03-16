@@ -1,38 +1,346 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Avenir Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Roman"), url("avenir_roman_12.woff") format("woff");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  background: none;
+  outline: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  font-family: "Avenir Roman", Arial;
+  letter-spacing: -1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+main,
+header,
+.aboutMeCont,
+.aboutMeText,
+.aboutMeImage,
+.projectsSection,
+.projectCont,
+.projectPicWrapper,
+.projectListCont,
+.projectMiddlecont,
+.projectIcons,
+.toolsSection,
+.toolsCont,
+.toolIconsCont,
+.tool,
+.contactSection,
+.contactPicWrapper,
+.contactText,
+.contactLogos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.interactive:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background-color: white;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+  gap: 50px;
+  justify-content: flex-start;
+}
+
+.bgBox {
+  position: absolute;
+  width: 300%;
+  height: 400px;
+  z-index: -5;
+  background-color: rgb(59, 216, 164);
+  transform: rotate(3deg);
+}
+
+.bgFill {
+  position: absolute;
+  width: 300%;
+  height: 200px;
+  z-index: -5;
+  background-color: rgb(59, 216, 164);
+}
+
+header {
+  width: 100%;
+}
+
+/* about me section */
+
+.aboutMeCont {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.54));
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  color: rgb(5, 35, 66);
+}
+
+.aboutMeText {
+  width: 70%;
+  padding: 50px;
+  height: 60%;
+  font-size: 1.2rem;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.aboutMeText > p > span {
+  font-weight: bold;
+}
+
+.aboutMeImage {
+  width: 300px;
+  height: 300px;
+  background-image: url("../src/images/profilePic.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+@media (max-width: 770px) {
+  .aboutMeCont {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .aboutMeText {
+    width: 100%;
+    padding: 30px;
+    gap: 15px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (max-width: 580px) {
+  .aboutMeCont {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .aboutMeText {
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+}
+
+/* projects list */
+
+.projectsSection {
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 50px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(5, 35, 66);
+}
+.projectListCont {
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  gap: 50px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.projectCont {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.54));
+}
+
+.projectPicWrapper {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.projectPic {
+  width: 100%;
+}
+
+.projectMiddlecont {
+  flex-direction: row;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 10%;
+
+  justify-content: space-between;
+}
+
+.projectIcons {
+  flex-direction: row;
+  gap: 5px;
+}
+.projectIcons > a {
+  width: 30px;
+}
+.projectIcons > a > img {
+  width: 30px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(5, 35, 66);
+}
+
+.projectDesc {
+  height: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.9rem;
+}
+
+/* tools section */
+
+.toolsSection {
+  width: 100%;
+  gap: 30px;
+}
+
+.toolsCont {
+  width: 100%;
+  gap: 10px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(5, 35, 66);
+}
+
+.toolIconsCont {
+  width: 100%;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tool > img {
+  width: 50px;
+  height: auto;
+}
+
+.tool > p {
+  font-size: 0.9rem;
+}
+
+/* contact section */
+.contactSection {
+  width: 100%;
+  padding: 50px;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: rgb(24, 63, 50);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contactPicWrapper {
+  width: 15%;
+  height: auto;
+  min-width: 200px;
+  max-width: 500px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contactPicWrapper > img {
+  width: 80%;
+}
+.contactText {
+  width: 50%;
+  max-width: 1000px;
+  gap: 20px;
+
+  font-size: 1.2rem;
+  text-align: center;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.contactText > p {
+  font-size: 1em;
+}
+.contactText > p > span {
+  font-weight: bold;
+}
+
+.contactLogos {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contactLogos > a {
+  width: 30px;
+  height: 30px;
+  transition: all 40ms ease-in-out;
+}
+
+.contactLogos > a > img {
+  width: 100%;
+  height: auto;
+}
+
+.gitHubInvert {
+  filter: invert(1);
+}
+
+@media (max-width: 770px) {
+  .contactSection {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .contactText {
+    width: 70%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .contactSection {
+    padding-top: 30px;
+  }
+  .contactText {
+    width: 80%;
   }
 }
