@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mikhailYu/personal-portfolio/static/css/main.2d25a1a8.css",
-    "main.js": "/mikhailYu/personal-portfolio/static/js/main.b971b354.js",
-    "static/media/weatherApp.png": "/mikhailYu/personal-portfolio/static/media/weatherApp.483cbdc3694684de9d7f.png",
-    "static/media/eastCafe.png": "/mikhailYu/personal-portfolio/static/media/eastCafe.24e9f207cdee97231d3e.png",
-    "static/media/library.png": "/mikhailYu/personal-portfolio/static/media/library.f0198d4a85a6814815c8.png",
-    "static/media/honeygram.png": "/mikhailYu/personal-portfolio/static/media/honeygram.e896d49f47008ee7e18f.png",
-    "static/media/profilePic.png": "/mikhailYu/personal-portfolio/static/media/profilePic.0749c9110c9f7a97fae3.png",
-    "static/media/runes4U.png": "/mikhailYu/personal-portfolio/static/media/runes4U.564f0a119650a793a175.png",
-    "static/media/memoryCard.png": "/mikhailYu/personal-portfolio/static/media/memoryCard.9061895223616e8132ea.png",
-    "static/media/quickCV.png": "/mikhailYu/personal-portfolio/static/media/quickCV.5493894b8081269d733a.png",
-    "static/media/dunzo.png": "/mikhailYu/personal-portfolio/static/media/dunzo.8e01f24f928640a9a6b3.png",
-    "static/media/avenir_roman_12.woff": "/mikhailYu/personal-portfolio/static/media/avenir_roman_12.a04564f695b5a542102a.woff",
-    "static/media/battleship.png": "/mikhailYu/personal-portfolio/static/media/battleship.0ab58e100bc8fad8f254.png",
-    "index.html": "/mikhailYu/personal-portfolio/index.html",
-    "main.2d25a1a8.css.map": "/mikhailYu/personal-portfolio/static/css/main.2d25a1a8.css.map",
-    "main.b971b354.js.map": "/mikhailYu/personal-portfolio/static/js/main.b971b354.js.map"
+    "main.css": "/personal-portfolio/static/css/main.d13652ef.css",
+    "main.js": "/personal-portfolio/static/js/main.fa4a70c1.js",
+    "static/media/weatherApp.png": "/personal-portfolio/static/media/weatherApp.483cbdc3694684de9d7f.png",
+    "static/media/eastCafe.png": "/personal-portfolio/static/media/eastCafe.24e9f207cdee97231d3e.png",
+    "static/media/library.png": "/personal-portfolio/static/media/library.f0198d4a85a6814815c8.png",
+    "static/media/honeygram.png": "/personal-portfolio/static/media/honeygram.e896d49f47008ee7e18f.png",
+    "static/media/profilePic.png": "/personal-portfolio/static/media/profilePic.0749c9110c9f7a97fae3.png",
+    "static/media/runes4U.png": "/personal-portfolio/static/media/runes4U.564f0a119650a793a175.png",
+    "static/media/memoryCard.png": "/personal-portfolio/static/media/memoryCard.9061895223616e8132ea.png",
+    "static/media/quickCV.png": "/personal-portfolio/static/media/quickCV.5493894b8081269d733a.png",
+    "static/media/dunzo.png": "/personal-portfolio/static/media/dunzo.8e01f24f928640a9a6b3.png",
+    "static/media/avenir_roman_12.woff": "/personal-portfolio/static/media/avenir_roman_12.a04564f695b5a542102a.woff",
+    "static/media/battleship.png": "/personal-portfolio/static/media/battleship.0ab58e100bc8fad8f254.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.d13652ef.css.map": "/personal-portfolio/static/css/main.d13652ef.css.map",
+    "main.fa4a70c1.js.map": "/personal-portfolio/static/js/main.fa4a70c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d25a1a8.css",
-    "static/js/main.b971b354.js"
+    "static/css/main.d13652ef.css",
+    "static/js/main.fa4a70c1.js"
   ]
 }
