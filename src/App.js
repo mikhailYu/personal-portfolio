@@ -35,6 +35,43 @@ function App() {
           <div className="projectCont">
             <div className="projectPicWrapper">
               <img
+                className="projectPic"
+                src={require("../src/images/screenshots/craftbook.png")}
+              ></img>
+            </div>
+            <div className="projectMiddlecont">
+              <h3>Craftbook</h3>
+              <div className="projectIcons">
+                <a
+                  href="https://github.com/mikhailYu/craftbook-reactApp"
+                  className="interactive"
+                  target={"_blank"}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+                <a
+                  href="https://mikhailyu.github.io/craftbook-reactApp/#/"
+                  className="interactive"
+                  target={"_blank"}
+                >
+                  <img src={require("../src/images/icons/linkto.png")}></img>
+                </a>
+              </div>
+            </div>
+            <p className="projectDesc">
+              Craftbook is a social media app for passionate creators to share
+              their projects and interact with others. The backend was made
+              utilizing express and the Mongodb database while Reactjs was used
+              for the frontend. Users can receive notifications from their posts
+              and also friend requests. The site features a variety of
+              handpicked themes that make each post and profile pop. Sign in via
+              Google or jump in as a Guest.
+            </p>
+          </div>
+
+          <div className="projectCont">
+            <div className="projectPicWrapper">
+              <img
                 alt="Screenshot of HoneyGram"
                 className="projectPic"
                 src={require("../src/images/screenshots/honeygram.png")}
@@ -181,6 +218,40 @@ function App() {
             <div className="projectPicWrapper">
               <img
                 className="projectPic"
+                src={require("../src/images/screenshots/battleship.png")}
+              ></img>
+            </div>
+            <div className="projectMiddlecont">
+              <h3>Battleship </h3>
+              <div className="projectIcons">
+                <a
+                  href="https://github.com/mikhailYu/Battleship"
+                  className="interactive"
+                  target={"_blank"}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+                <a
+                  href="https://mikhailyu.github.io/Battleship/"
+                  className="interactive"
+                  target={"_blank"}
+                >
+                  <img src={require("../src/images/icons/linkto.png")}></img>
+                </a>
+              </div>
+            </div>
+            <p className="projectDesc">
+              A classic game of Battleship, recreated in Javascript. Sink all of
+              your opponent's ships before they sink yours. The AI remembers
+              where each part is hit so it can continue targeting your ships
+              instead of randomly shooting other spots.
+            </p>
+          </div>
+
+          <div className="projectCont">
+            <div className="projectPicWrapper">
+              <img
+                className="projectPic"
                 src={require("../src/images/screenshots/quickCV.png")}
               ></img>
             </div>
@@ -209,40 +280,6 @@ function App() {
               they were to apply for a job. Just as the name suggests, it is
               ideal for people who want to apply for a job quickly or are short
               on time.
-            </p>
-          </div>
-
-          <div className="projectCont">
-            <div className="projectPicWrapper">
-              <img
-                className="projectPic"
-                src={require("../src/images/screenshots/battleship.png")}
-              ></img>
-            </div>
-            <div className="projectMiddlecont">
-              <h3>Battleship </h3>
-              <div className="projectIcons">
-                <a
-                  href="https://github.com/mikhailYu/Battleship"
-                  className="interactive"
-                  target={"_blank"}
-                >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-                <a
-                  href="https://mikhailyu.github.io/Battleship/"
-                  className="interactive"
-                  target={"_blank"}
-                >
-                  <img src={require("../src/images/icons/linkto.png")}></img>
-                </a>
-              </div>
-            </div>
-            <p className="projectDesc">
-              A classic game of Battleship, recreated in Javascript. Sink all of
-              your opponent's ships before they sink yours. The AI remembers
-              where each part is hit so it can continue targeting your ships
-              instead of randomly shooting other spots.
             </p>
           </div>
 
@@ -314,40 +351,6 @@ function App() {
               wrong costs you one health point. Lose all you health and its game
               over. Beat the first wave of levels to unlock a gaunlet of harder
               levels. Go for the high score.
-            </p>
-          </div>
-          <div className="projectCont">
-            <div className="projectPicWrapper">
-              <img
-                className="projectPic"
-                src={require("../src/images/screenshots/dunzo.png")}
-              ></img>
-            </div>
-            <div className="projectMiddlecont">
-              <h3>Dunzo</h3>
-              <div className="projectIcons">
-                <a
-                  href="https://github.com/mikhailYu/todo-List"
-                  className="interactive"
-                  target={"_blank"}
-                >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-                <a
-                  href="https://mikhailyu.github.io/todo-List/"
-                  className="interactive"
-                  target={"_blank"}
-                >
-                  <img src={require("../src/images/icons/linkto.png")}></img>
-                </a>
-              </div>
-            </div>
-            <p className="projectDesc">
-              An app that keeps track of tasks that the user needs to do. The
-              information is saved locally so the tasks aren't reset whenever
-              the page is closed. Each larger task also has room to add in
-              smaller tasks to break the workload down. There are also functions
-              to organize tasks by date.
             </p>
           </div>
         </div>
