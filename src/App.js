@@ -13,7 +13,7 @@ function App() {
               passion of mine as it allows me to solve problems, both complex
               and creative, in a challenging and satisfying way. I have studied
               a variety of different technologies that would help me or are
-              essential to the field. On top of that, I am always deteremined
+              essential to the field. On top of that, I am always determined
               and looking forward to learning new and updated practices as
               technology rapidly evolves.
             </p>
