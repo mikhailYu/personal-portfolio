@@ -13,8 +13,8 @@ function App() {
               passion of mine as it allows me to solve problems, both complex
               and creative, in a challenging and satisfying way. I have studied
               a variety of different technologies that would help me or are
-              essential to the field. On top of that, I am always determined
-              and looking forward to learning new and updated practices as
+              essential to the field. On top of that, I am always determined and
+              looking forward to learning new and updated practices as
               technology rapidly evolves.
             </p>
             <p>
@@ -32,6 +32,39 @@ function App() {
       <section className="projectsSection">
         <h2>List of Projects:</h2>
         <div className="projectListCont">
+          <div className="projectCont">
+            <div className="projectPicWrapper">
+              <img
+                className="projectPic"
+                src={require("../src/images/screenshots/portfolio2023.png")}
+              ></img>
+            </div>
+            <div className="projectMiddlecont">
+              <h3>New Portfolio</h3>
+              <div className="projectIcons">
+                <a
+                  href="https://github.com/mikhailYu/mikhail-portfolio-2023"
+                  className="interactive"
+                  target={"_blank"}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+                <a
+                  href="https://mikhail-yuguy-portfolio.onrender.com/"
+                  className="interactive"
+                  target={"_blank"}
+                >
+                  <img src={require("../src/images/icons/linkto.png")}></img>
+                </a>
+              </div>
+            </div>
+            <p className="projectDesc">
+              My newest portfolio as of 2023. It is responsive as well as easy
+              to navigate. I have added a few transitional animations for smooth
+              navigation.
+            </p>
+          </div>
+
           <div className="projectCont">
             <div className="projectPicWrapper">
               <img
@@ -280,41 +313,6 @@ function App() {
               they were to apply for a job. Just as the name suggests, it is
               ideal for people who want to apply for a job quickly or are short
               on time.
-            </p>
-          </div>
-
-          <div className="projectCont">
-            <div className="projectPicWrapper">
-              <img
-                className="projectPic"
-                src={require("../src/images/screenshots/library.png")}
-              ></img>
-            </div>
-            <div className="projectMiddlecont">
-              <h3>Personal Library</h3>
-              <div className="projectIcons">
-                <a
-                  href="https://github.com/mikhailYu/Library"
-                  className="interactive"
-                  target={"_blank"}
-                >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-                <a
-                  href="https://mikhailyu.github.io/Library/"
-                  className="interactive"
-                  target={"_blank"}
-                >
-                  <img src={require("../src/images/icons/linkto.png")}></img>
-                </a>
-              </div>
-            </div>
-            <p className="projectDesc">
-              An app which the user can add books to, along with the author and
-              page count. The user can set each book as either "read" or
-              "unread" which is useful for keeping track of what you have read.
-              It is all displayed as cards which are organized in a clean and
-              easy to read manner.
             </p>
           </div>
 
